@@ -35,6 +35,7 @@
 #include "platform/CCDevice.h"
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS) && !defined(CC_TARGET_OS_TVOS)
+#import <UIKit/UIKit.h>
 #import <CoreMotion/CoreMotion.h>
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 #include <jni.h>
